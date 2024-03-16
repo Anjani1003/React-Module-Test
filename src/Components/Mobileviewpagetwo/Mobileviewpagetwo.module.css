@@ -1,0 +1,57 @@
+.main{
+    background-color: #DAE5F5;
+}
+
+.mainpagerightone{
+    width: 100vw;
+    height: 98px;
+    background-color: #001F8B;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.mainpagerighttwo{
+    width: 100vw;
+    height: 31vh;
+    background-color: #001F8B;
+    position: fixed;
+    top: 70vh;
+}
+
+.mainpagerightthree{
+width: 100vw;
+  height: 50vh; 
+  overflow: auto;
+}
+
+.noteinput{
+    width: 85vw;
+    height: 20vh;
+    border-radius: 9px;
+    border: 1px solid black;
+    margin: 16px;
+    padding: 10px;
+    line-height: 1;
+    text-indent: 5px; /* Shift text downwards */
+   font-family: 'Roboto';
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 35px;
+   letter-spacing: 0.02em;
+   
+}
+.noteinput[type="text"]::placeholder {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    color: #999; /* Placeholder color */
+}
+
+.submitarrowimg{
+    position: fixed;
+    top: 90vh;
+    left: 83vw;
+
+}

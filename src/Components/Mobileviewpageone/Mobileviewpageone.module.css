@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz@9..40&family=Delius+Unicase:wght@700&family=Inter:wght@500;700;800&family=Open+Sans&family=Roboto:wght@500;700&display=swap&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+}
+.groupdisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    margin-top: 30px;
+    height: 70vh; 
+    width: 90vw;/* Adjust the height as needed */
+    overflow-y: auto;
+}
+.addbtn{
+    width: 53px;
+    height: 53px;
+    background-color: #16008B;
+    color: white;
+    border-radius: 50%;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 8px;
+    letter-spacing: 0.02em;
+    border: none;
+    position: fixed;
+    top: 80vh;
+    left: 75vw;
+
+}
+.modal{
+    position: absolute;
+    top: 25vh;
+    left: 8vw;
+}

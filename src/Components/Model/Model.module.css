@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz@9..40&family=Delius+Unicase:wght@700&family=Inter:wght@500;700;800&family=Open+Sans&family=Roboto:wght@500;700&display=swap&family=Single+Day&display=swap');
+
+.model{
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-direction: column;
+    border: 2px solid #CCCCCC;
+    background-color: white;
+
+}
+
+.modelhead{
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+  
+
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 22px;
+    border: 2px solid #CCCCCC;
+    padding-left: 20px;
+
+}
+.model2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.model3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.colorslct{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.colorslct button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.createbtn{
+    width: 150px;
+    height: 770px;  
+    border-radius: 11px;
+    background-color: #001F8B;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 28px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 25vw;
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .model{
+        height: 40vh;
+        width: 70vw;
+        padding: 15px;
+        gap: 15px;
+    
+    }
+    
+    .modelhead{
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 500;
+        text-align: left;
+      }
+    
+    .input{
+        width: 250px;
+        height: 30px;
+        border-radius: 22px;
+        border: 2px solid #CCCCCC;
+        padding-left: 20px;
+    
+    }
+    .model2{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .model3{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        
+    }
+    
+    .colorslct{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .colorslct button{
+        width: 20px;
+        height: 20px;
+        border: none;
+        border-radius: 50%;
+    }
+    
+    .createbtn{
+        width: 80px;
+        height: 20px;  
+        border-radius: 11px;
+        background-color: #001F8B;
+        color: white;
+        border: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 28px;
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 400;
+        position: relative;
+        left: 25vw;
+        margin-top: 10px;
+    
+    }
+    
+
+}

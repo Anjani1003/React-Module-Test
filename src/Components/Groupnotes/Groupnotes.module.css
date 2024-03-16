@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz@9..40&family=Delius+Unicase:wght@700&family=Inter:wght@500;700;800&family=Open+Sans&family=Roboto:wght@500;700&display=swap&family=Single+Day&display=swap');
+
+
+.groupnotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    width: 30vw;
+    
+}
+
+.groupnotesleft{
+    width: 50px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    background-color: #0047FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.groupnotesright{
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: left;
+color:white;
+display: flex;
+justify-content: left;
+align-items: left;
+width: 20vw;
+
+}
+
+@media only screen and (max-width: 400px){
+    .groupnotes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        width: 50vw;
+        
+    }
+    .groupnotesright{
+        width: 40vw;
+    }
+
+}
